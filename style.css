@@ -1,4 +1,7 @@
 /* Global Styles */
 body {
     font-family: "Poppins", sans-serif;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    margin: 0;
+    padding: 0;
 }
