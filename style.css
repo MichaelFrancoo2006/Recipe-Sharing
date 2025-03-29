@@ -14,4 +14,7 @@ body {
 .container {
     width: 90%;
     max-width: 800px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
 }
