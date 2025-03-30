@@ -30,6 +30,7 @@ header {
     border-radius: 12px 12px 0 0;
 }
 
+/* Header title */
 header h1 {
     margin: 0;
     font-size: 2em;
