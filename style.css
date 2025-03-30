@@ -23,3 +23,7 @@ body {
 }
 
 /* Header */
+header {
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    color: white;
+}
