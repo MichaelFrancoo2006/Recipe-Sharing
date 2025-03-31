@@ -41,4 +41,5 @@ header h1 {
 header input {
     width: 90%;
     padding: 12px;
+    margin-top: 15px;
 }
