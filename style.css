@@ -40,4 +40,5 @@ header h1 {
 /* Search input style */
 header input {
     width: 90%;
+    padding: 12px;
 }
