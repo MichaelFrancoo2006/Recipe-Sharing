@@ -43,17 +43,21 @@ header input {
     padding: 12px;
     margin-top: 15px;
     border: none;
-    border-radius: 8px; 
-    font-size: 1em; 
-    outline: none; 
+    border-radius: 8px;
+    font-size: 1em;
+    outline: none;
 }
 
 header input:focus {
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 /* Recipe List */
 main ul {
     ist-style: none;
     padding: 0;
+}
+
+main ul li {
+    padding: 14px;
 }
