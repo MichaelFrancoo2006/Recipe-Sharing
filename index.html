@@ -2,40 +2,44 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" /> <!-- Sets character encoding to UTF-8 for international support -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Makes the website responsive on different screen sizes -->
-    <title>Recipe Sharing</title> <!-- Sets the title of the webpage -->
-    <link rel="stylesheet" href="style.css" /> <!-- Links the external CSS file for styling -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Sharing</title>
+    <!-- Link to the external CSS file for styling -->
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <div class="container">
-        <!-- Main container for the entire content -->
+        <!-- Header Section -->
         <header>
-            <!-- Header section -->
-            <h1>Recipe Sharing</h1> <!-- Website heading/title -->
-            <input type="text" id="search" placeholder="Search recipes..." onkeyup="filterRecipes()" /> <!-- Search bar to filter recipes dynamically -->
+            <h1>Recipe Sharing</h1>
+            <!-- Search input for filtering recipes -->
+            <input type="text" id="search" placeholder="Search recipes..." onkeyup="filterRecipes()" />
         </header>
+        <!-- Main Content Section -->
         <main>
-            <!-- Main content section -->
+            <!-- List of recipes with share buttons -->
             <ul id="recipe-list">
-                <!-- Unordered list to display the recipes -->
-                <li>Spaghetti Bolognese <button onclick="shareRecipe('Spaghetti Bolognese')">Share</button></li> <!-- Spaghetti Bolognese with a Share button -->
-                <li>Grilled Chicken Salad <button onclick="shareRecipe('Grilled Chicken Salad')">Share</button></li> <!-- Grilled Chicken Salad with a Share button -->
-                <li>Vegetable Stir-fry <button onclick="shareRecipe('Vegetable Stir-fry')">Share</button></li> <!-- Vegetable Stir-fry with a Share button -->
-                <li>Chocolate Cake <button onclick="shareRecipe('Chocolate Cake')">Share</button></li> <!-- Chocolate Cake with a Share button -->
-                <li>Homemade Pizza <button onclick="shareRecipe('Homemade Pizza')">Share</button></li> <!-- Homemade Pizza with a Share button -->
+                <li>Spaghetti Bolognese <button onclick="shareRecipe('Spaghetti Bolognese')">Share</button></li>
+                <li>Grilled Chicken Salad <button onclick="shareRecipe('Grilled Chicken Salad')">Share</button></li>
+                <li>Vegetable Stir-fry <button onclick="shareRecipe('Vegetable Stir-fry')">Share</button></li>
+                <li>Chocolate Cake <button onclick="shareRecipe('Chocolate Cake')">Share</button></li>
+                <li>Homemade Pizza <button onclick="shareRecipe('Homemade Pizza')">Share</button></li>
             </ul>
         </main>
-        <footer> <!-- Footer section -->
-            <p>Share your favorite recipes on social media!</p> <!-- Message encouraging sharing -->
-            <div class="social-buttons"> <!-- Container for social media buttons -->
-                <button onclick="shareOnFacebook()">Facebook</button> <!-- Button to share on Facebook -->
-                <button onclick="shareOnTwitter()">Twitter</button> <!-- Button to share on Twitter -->
+        <!-- Footer Section -->
+        <footer>
+            <p>Share your favorite recipes on social media!</p>
+            <div class="social-buttons">
+                <!-- Social media share buttons -->
+                <button onclick="shareOnFacebook()">Facebook</button>
+                <button onclick="shareOnTwitter()">Twitter</button>
             </div>
         </footer>
     </div>
-    <script src="script.js"></script> <!-- Links external JavaScript file for functionality -->
+    <!-- Link to the external JavaScript file for functionality -->
+    <script src="script.js"></script>
 </body>
 
 </html>
