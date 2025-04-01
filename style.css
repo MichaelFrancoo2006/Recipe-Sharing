@@ -45,4 +45,5 @@ header input {
     border: none;
     border-radius: 8px; 
     font-size: 1em; 
+    outline: none; 
 }
