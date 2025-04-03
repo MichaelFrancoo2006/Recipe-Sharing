@@ -54,7 +54,7 @@ header input:focus {
 
 /* Recipe List */
 main ul {
-    ist-style: none;
+    list-style: none;
     padding: 0;
 }
 
