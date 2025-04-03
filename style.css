@@ -1,67 +1,67 @@
 /* Global Styles */
 body {
-    font-family: "Poppins", sans-serif;
-    background: linear-gradient(to right, #ffecd2, #fcb69f);
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
 }
 
 /* Main Container */
 .container {
-    width: 90%;
-    max-width: 800px;
-    background: #fff;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    margin-top: 30px;
+  width: 90%;
+  max-width: 800px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-top: 30px;
 }
 
 /* Header */
 header {
-    background: linear-gradient(135deg, #ff758c, #ff7eb3);
-    color: white;
-    padding: 20px;
-    border-radius: 12px 12px 0 0;
+  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+  color: white;
+  padding: 20px;
+  border-radius: 12px 12px 0 0;
 }
 
 /* Header title */
 header h1 {
-    margin: 0;
-    font-size: 2em;
-    font-weight: bold;
+  margin: 0;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 /* Style search input */
 header input {
-    width: 90%;
-    padding: 12px;
-    margin-top: 15px;
-    border: none;
-    border-radius: 8px;
-    font-size: 1em;
-    outline: none;
+  width: 90%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  outline: none;
 }
 
 header input:focus {
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 /* Recipe List */
 main ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 main ul li {
-    padding: 14px;
-    font-size: 1.2em;
-    background: #f9f9f9;
-    border-radius: 8px;
-    margin: 10px 0;
+  padding: 14px;
+  font-size: 1.2em;
+  background: #f9f9f9;
+  border-radius: 8px;
+  margin: 10px 0;
 }
