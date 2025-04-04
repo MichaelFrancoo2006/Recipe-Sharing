@@ -76,3 +76,6 @@ main ul li:hover {
 }
 
 /* Buttons */
+button {
+  padding: 10px 15px;
+}
