@@ -78,4 +78,5 @@ main ul li:hover {
 /* Buttons */
 button {
   padding: 10px 15px;
+  font-size: 1em;
 }
