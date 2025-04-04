@@ -69,3 +69,7 @@ main ul li {
   align-items: center;
   transition: transform 0.2s;
 }
+
+main ul li:hover {
+  transform: scale(1.02);
+}
