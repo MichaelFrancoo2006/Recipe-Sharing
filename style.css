@@ -84,4 +84,5 @@ button {
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s;
+  color: white;
 }
