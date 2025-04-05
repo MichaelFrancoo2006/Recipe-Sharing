@@ -102,3 +102,5 @@ footer {
   background: linear-gradient(135deg, #1e3c72, #2a5298);
   color: white;
   padding: 20px;
+  border-radius: 0 0 12px 12px;
+}
