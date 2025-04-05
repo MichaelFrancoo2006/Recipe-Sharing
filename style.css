@@ -81,4 +81,5 @@ button {
   font-size: 1em;
   font-weight: 600;
   border: none;
+  border-radius: 8px;
 }
