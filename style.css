@@ -100,4 +100,5 @@ main ul li button:hover {
 /* Footer */
 footer {
   background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
 }
