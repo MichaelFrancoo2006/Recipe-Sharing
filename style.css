@@ -94,4 +94,5 @@ main ul li button {
 
 main ul li button:hover {
   background: linear-gradient(135deg, #0056b3, #007bff);
+  transform: scale(1.05);
 }
