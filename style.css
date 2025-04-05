@@ -91,3 +91,7 @@ button {
 main ul li button {
   background: linear-gradient(135deg, #007bff, #0056b3);
 }
+
+main ul li button:hover {
+  background: linear-gradient(135deg, #0056b3, #007bff);
+}
