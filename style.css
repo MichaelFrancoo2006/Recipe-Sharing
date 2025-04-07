@@ -111,3 +111,7 @@ footer {
 .social-buttons {
   margin-top: 10px;
 }
+
+.social-buttons button {
+  margin: 8px;
+}
