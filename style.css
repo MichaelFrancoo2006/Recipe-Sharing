@@ -123,4 +123,5 @@ footer {
 
 .social-buttons button:hover {
   transform: scale(1.1);
+  opacity: 0.9;
 }
