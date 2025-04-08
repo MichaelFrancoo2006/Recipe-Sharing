@@ -120,3 +120,7 @@ footer {
   cursor: pointer;
   transition: transform 0.3s, opacity 0.3s;
 }
+
+.social-buttons button:hover {
+  transform: scale(1.1);
+}
