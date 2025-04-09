@@ -132,3 +132,6 @@ footer {
 }
 
 /* Twitter Button */
+.social-buttons button:nth-child(2) {
+  background-color: #1da1f2;
+}
