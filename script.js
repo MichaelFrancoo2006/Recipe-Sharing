@@ -7,5 +7,8 @@ function filterRecipes() {
     // Loop through each recipe and check if it matches the search input
     for (let i = 0; i < recipes.length; i++) {
         const recipe = recipes[i].textContent || recipes[i].innerText;
+        if (recipe.toLowerCase().indexOf(searchInput) > -1) {
+            recipes[i].style.display = "";
+        }
     }
 }
