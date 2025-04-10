@@ -14,3 +14,5 @@ function filterRecipes() {
     }
   }
 }
+
+// Function to share a recipe
