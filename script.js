@@ -5,4 +5,7 @@ function filterRecipes() {
     const recipes = recipeList.getElementsByTagName("li");
 
     // Loop through each recipe and check if it matches the search input
+    for (let i = 0; i < recipes.length; i++) {
+        const recipe = recipes[i].textContent || recipes[i].innerText;
+    }
 }
