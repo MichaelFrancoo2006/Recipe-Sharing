@@ -25,5 +25,8 @@ function shareRecipe(recipeName) {
         text: shareText,
         url: window.location.href,
       })
+      .then(() => {
+        console.log("Recipe shared successfully");
+      })
   }
 }
