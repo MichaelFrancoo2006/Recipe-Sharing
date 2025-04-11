@@ -16,3 +16,6 @@ function filterRecipes() {
 }
 
 // Function to share a recipe
+function shareRecipe(recipeName) {
+  const shareText = `Check out this recipe: ${recipeName}`;
+}
