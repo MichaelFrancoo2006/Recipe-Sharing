@@ -23,6 +23,7 @@ function shareRecipe(recipeName) {
       .share({
         title: "Recipe Sharing",
         text: shareText,
+        url: window.location.href,
       })
   }
 }
