@@ -19,5 +19,9 @@ function filterRecipes() {
 function shareRecipe(recipeName) {
   const shareText = `Check out this recipe: ${recipeName}`;
   if (navigator.share) {
+    navigator
+      .share({
+        title: "Recipe Sharing",
+      })
   }
 }
