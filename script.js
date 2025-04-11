@@ -22,6 +22,7 @@ function shareRecipe(recipeName) {
     navigator
       .share({
         title: "Recipe Sharing",
+        text: shareText,
       })
   }
 }
