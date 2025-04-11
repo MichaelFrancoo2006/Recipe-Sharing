@@ -28,5 +28,8 @@ function shareRecipe(recipeName) {
       .then(() => {
         console.log("Recipe shared successfully");
       })
+      .catch((error) => {
+        console.error("Error sharing recipe:", error);
+      });
   }
 }
