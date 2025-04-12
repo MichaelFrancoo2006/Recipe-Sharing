@@ -35,3 +35,5 @@ function shareRecipe(recipeName) {
     alert(shareText);
   }
 }
+
+// Function to share on Facebook
