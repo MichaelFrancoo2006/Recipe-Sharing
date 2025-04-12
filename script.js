@@ -31,5 +31,7 @@ function shareRecipe(recipeName) {
       .catch((error) => {
         console.error("Error sharing recipe:", error);
       });
+  } else {
+    alert(shareText);
   }
 }
