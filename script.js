@@ -40,4 +40,5 @@ function shareRecipe(recipeName) {
 function shareOnFacebook() {
   const url = window.location.href;
   const facebookShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
+  window.open(facebookShareUrl, "_blank");
 }
