@@ -25,3 +25,18 @@ This is a simple web application for sharing and searching recipes. Users can se
 - `index.html`: The main HTML file for the web page.
 - `style.css`: The CSS file for styling the web page.
 - `script.js`: The JavaScript file for adding functionality to the web page.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MichaelFrancoo2006/Recipe-Sharing
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd recipe-Sharing
+   ```
+
+## License
+
+This project is licensed under the MIT License.
