@@ -44,3 +44,6 @@ function shareOnFacebook() {
 }
 
 // Function to share on Twitter
+function shareOnTwitter() {
+  const url = window.location.href;
+}
