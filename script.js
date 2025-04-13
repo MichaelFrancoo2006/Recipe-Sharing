@@ -42,3 +42,5 @@ function shareOnFacebook() {
   const facebookShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
   window.open(facebookShareUrl, "_blank");
 }
+
+// Function to share on Twitter
