@@ -47,4 +47,5 @@ function shareOnFacebook() {
 function shareOnTwitter() {
   const url = window.location.href;
   const twitterShareUrl = `https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}`;
+  window.open(twitterShareUrl, "_blank");
 }
